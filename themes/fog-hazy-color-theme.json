@@ -91,10 +91,10 @@
     ////////////////////////////////////////////////////////////////////////////////
     "editorWidget.border": "#dfdfd7" /* 编辑器小部件的边框颜色 */,
     "editorWidget.foreground": "#ffeaa7e3" /* 编辑器组件(如查找/替换)前景颜色 */,
-    "editorWidget.background": "#00000021" /* 编辑器组件(如查找/替换)背景颜色 */,
+    "editorWidget.background": "#2A2C3E" /* 编辑器组件(如查找/替换)背景颜色 */,
     "editorHoverWidget.foreground": "#eef7f2" /* 编辑器悬停的前景颜色 */,
-    "editorHoverWidget.background": "#00000008" /* 编辑器悬停提示的背景颜色 */,
-    "editorHoverWidget.border": "#3a3a3b" /* 光标悬停时编辑器的边框颜色 */,
+    "editorHoverWidget.background": "#2A2C3E" /* 编辑器悬停提示的背景颜色 */,
+    "editorHoverWidget.border": "#7e57c2" /* 光标悬停时编辑器的边框颜色 */,
     "editorSuggestWidget.foreground": "#fffff5db",
     "editorSuggestWidget.highlightForeground": "#ffffff" /* 建议小组件中匹配内容的高亮颜色 */,
     // "editorSuggestWidget.highlightForeground": "#ff87d7d7"
@@ -211,7 +211,7 @@
     ////////////////////////////////////////////////////////////////////////////////
     "input.border": "#717171f5" /* 输入框边框 */,
     "input.foreground": "#ffffde" /* 输入框前景色 */,
-    "input.background": "#00000037" /* 输入框背景色 */,
+    "input.background": "#2A2C3E" /* 输入框背景色 */,
     "input.placeholderForeground": "#ffffff46" /* 输入框中占位符的前景色 */,
     "inputValidation.errorBackground": "#ef5350f2",
     "inputValidation.errorBorder": "#EF5350",
