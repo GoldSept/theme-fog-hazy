@@ -8,6 +8,8 @@
 
 💡If you want to experience the acrylic modal effect, you need to use the [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) extension and configure the following CSS code:
 
+> Apc Customize UI++ version <= 1.91
+
 ```json
 "apc.stylesheet": {
     // acrylic effect
