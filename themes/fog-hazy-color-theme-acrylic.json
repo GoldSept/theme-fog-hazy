@@ -156,6 +156,7 @@
     "tab.inactiveForeground": "#6d6d6d" /* 活动组中非活动选项卡的前景色 */,
     "tab.activeBorderTop": "#61ffca" /* 选项卡上边框颜色 */,
     "tab.unfocusedActiveBackground": "#00000000" /* 非焦点组中的活动选项卡背景色 */,
+    "tab.unfocusedHoverBackground": "#61ffca1d" /* 非焦点组中选项卡被悬停时的背景色 */,
     "tab.unfocusedActiveForeground": null,
     "tab.unfocusedInactiveForeground": null,
 
@@ -286,7 +287,7 @@
     "panel.border": "#282B3C",
     "panelTitle.activeBorder": "#7e57c2",
     "panelTitle.activeForeground": "#eeffff",
-    "panelTitle.inactiveForeground": "#fffff5db80",
+    "panelTitle.inactiveForeground": "#fffff580",
 
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶状态栏◀ ------------ */
