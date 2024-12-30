@@ -2,7 +2,7 @@
   "name": "fog-hazy",
   "displayName": "Fog Hazy",
   "description": "雾朦胧",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "images/hazy.png",
   "publisher": "goldenchao",
   "engines": {
