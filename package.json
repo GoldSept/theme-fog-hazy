@@ -17,6 +17,11 @@
         "label": "Fog Hazy",
         "uiTheme": "vs-dark",
         "path": "./themes/fog-hazy-color-theme.json"
+      },
+      {
+        "label": "Fog Hazy Acrylic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fog-hazy-color-theme-acrylic.json"
       }
     ]
   },
