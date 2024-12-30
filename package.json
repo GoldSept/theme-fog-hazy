@@ -1,0 +1,23 @@
+{
+  "name": "fog-hazy",
+  "displayName": "Fog Hazy",
+  "description": "雾朦胧",
+  "version": "0.0.1",
+  "icon": "images/hazy.png",
+  "publisher": "goldenchao",
+  "engines": {
+    "vscode": "^1.9.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fog Hazy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fog-hazy-color-theme.json"
+      }
+    ]
+  }
+}

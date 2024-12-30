@@ -1,0 +1,1747 @@
+{
+  "name": "Fog Hazy",
+  "colors": {
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶基色◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "foreground": "#ffffff" /* 整体前景色;仅当未被组件覆盖时才使用此颜色 */,
+    "focusBorder": "#282B3C" /* 聚焦元素的整体边框颜色;仅当未被组件覆盖时才使用此颜色 */,
+    "contrastBorder": "#282B3C" /* 元素周围的额外边框，用于将元素与其他元素区分开，从而实现更大的对比度 */,
+    "contrastActiveBorder": null /* 活动元素周围的额外边框，用于将它们与其他元素区分开，从而实现更大的对比度。 */,
+    "descriptionForeground": null /* 提供附加信息的描述文本的前景色 */,
+    "errorForeground": "#EF5350" /* 错误消息整体前景色 */,
+    "widget.shadow": "#232635" /* 编辑器内查找/替换等小部件的阴影颜色 */,
+    "selection.background": "#7580B850" /* 作台中文本选择的背景颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶欢迎页面◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "walkThrough.embeddedEditorBackground": "#232635" /* 交互式游乐场中嵌入编辑器的背景颜色 */,
+    "welcomePage.buttonBackground": null,
+    "welcomePage.buttonHoverBackground": null,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶设置◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    // "settings.textInputBorder": "#eb6b1caf" /* 设置编辑器文本输入框边框 */,
+    // "settings.dropdownBorder": "#d49041cb" /* 设置编辑器下拉列表边框 */
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶个人资料◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    // "profileBadge.foreground": "#ff0000",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶编辑器◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "editor.background": "#1e1e20ee" /* 编辑器背景颜色 */,
+    "editor.foreground": "#BFC7D5" /* 编辑器前景色 */,
+    "editor.inactiveSelectionBackground": "#7e57c25a",
+    "editor.wordHighlightStrongBackground": "#2e3250fe",
+    "editor.foldBackground": "#3838383f" /* 折叠范围后面的背景颜色 */,
+    "editor.findMatchBackground": "#f732989e" /* 搜索项颜色 */,
+    // "editor.findMatchBackground": "#457dff8c",
+    "editor.findMatchHighlightBorder": "#6a865776" /* 其他搜索匹配项的边框颜色 */,
+    "editor.findMatchHighlightBackground": "#4af13066" /* 其他搜索项颜色 */,
+    "editor.lineHighlightBackground": "#0a09099d" /* 光标所在行高亮文本的背景颜色 */,
+    "editor.selectionHighlightBorder": "#c4cac3b7" /* 与所选项内容相同的区域的边框颜 */,
+    "editor.selectionHighlightBackground": "#f8cb7077" /* 与所选内容具有相同内容的区域颜色 */,
+    "editor.selectionBackground": "#7614e588" /* 编辑器所选内容的颜色 */,
+    // "editor.selectionBackground": "#1e65e177",
+    "editor.wordHighlightBackground": "#f8c38736" /* 读取访问期间（例如读取变量时）符号的背景颜色 */,
+    // "editor.wordHighlightTextBackground": "#f9e9cd9b",
+    "editor.hoverHighlightBackground": "#08ef176e" /* 在下面突出显示悬停的字词 */,
+    "editor.rangeHighlightBackground": "#457dff59" /* 突出显示范围的背景颜色，例如"Quick Open"和“查找”功能 */,
+    "editor.lineHighlightBorder": null,
+    "editor.findRangeHighlightBackground": null,
+    "editorLineNumber.activeForeground": "#ff770f" /* 编辑器活动行号的颜色 */,
+    "editorLineNumber.foreground": "#363636" /* 编辑器行号颜色 */,
+    // "editorLineNumber.foreground": "#619ac3a8",
+    // "editorLineNumber.dimmedForeground": "#363636" /* 最后一行的行号颜色 */,
+    "editorGroup.border": "#00000000" /* 将多个编辑器组彼此分隔开的颜色 */,
+    "editorGroup.dropBackground": "#1717c97e" /* 拖动编辑器时的背景颜色；此文本通知用户可以按住 Shift 放入编辑器中 */,
+    "editorGroup.dropIntoPromptBackground": "#1717c998" /* 拖动文件时编辑器上显示的文本背景色；此文本通知用户可以按住 Shift 放入编辑器中 */,
+    "editorGroupHeader.noTabsBackground": "#32374C",
+    "editorGroupHeader.tabsBackground": "#1e1e20ee" /* 选项卡容器的背景颜色 */,
+    "editorGroupHeader.tabsBorder": "#1e1e20ee" /* 编辑器选项卡下方的边框颜色控制何时启用选项卡 */,
+    "editorGroupHeader.border": "#1e1e20ee" /* 编辑器组标题和编辑器之间的边框颜色（如果启用，则在面包屑下方） */,
+    "editorGutter.modifiedBackground": "#e2b93d",
+    "editorGutter.addedBackground": "#9CCC65",
+    "editorGutter.deletedBackground": "#EF5350",
+    "editorCursor.foreground": "#fbb612" /* 编辑器光标颜色 */,
+    "editorGutter.background": null,
+    // "editorCursor.foreground": "#ff79c6",
+    "editorCursor.background": null,
+    "editorInlayHint.foreground": "#ffffff8a" /* 内联提示的前景色 */,
+    "editorInlayHint.background": "#7572725e" /* 内联提示的背景色 */,
+    "editorError.border": null,
+    "editorError.foreground": "#EF5350" /* 错误波浪线的前景色 */,
+    "editorWarning.border": null,
+    "editorWarning.foreground": "#FFCA28" /* 警告波浪线的前景色 */,
+    "editorLink.activeForeground": "#ffa72d" /* 活动链接颜色 */,
+    "editorBracketMatch.background": "#c0c4c377" /* 匹配括号的背景色 */,
+    "editorRuler.foreground": "#4E557980",
+    "editorCodeLens.foreground": "#FFCA28" /* 编辑器 CodeLens 的前景色 */,
+    "editorIndentGuide.background1": "#4E557980" /* 编辑器缩进指南的颜色（1） */,
+    // "editorGutter.background": "#01cd78" /* 编辑器导航线的背景色，导航线包括边缘符号和行号 */,
+    "editorBracketMatch.border": null,
+    "editorWhitespace.foreground": null,
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶编辑器小部件◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "editorWidget.border": "#dfdfd7" /* 编辑器小部件的边框颜色 */,
+    "editorWidget.foreground": "#ffeaa7e3" /* 编辑器组件(如查找/替换)前景颜色 */,
+    "editorWidget.background": "#00000021" /* 编辑器组件(如查找/替换)背景颜色 */,
+    "editorHoverWidget.foreground": "#eef7f2" /* 编辑器悬停的前景颜色 */,
+    "editorHoverWidget.background": "#00000008" /* 编辑器悬停提示的背景颜色 */,
+    "editorHoverWidget.border": "#3a3a3b" /* 光标悬停时编辑器的边框颜色 */,
+    "editorSuggestWidget.foreground": "#bfc7d5",
+    "editorSuggestWidget.highlightForeground": "#ffffff" /* 建议小组件中匹配内容的高亮颜色 */,
+    // "editorSuggestWidget.highlightForeground": "#ff87d7d7"
+    "editorSuggestWidget.background": "#00000000" /* 建议小组件的背景色 */,
+    "editorSuggestWidget.border": "#00000000" /* 建议小组件的边框颜色 */,
+    "editorSuggestWidget.selectedBackground": "#ffffff51" /* 建议小组件中所选条目的背景色 */,
+    "editorSuggestWidget.focusHighlightForeground": "#ff770f" /* 当某项获得焦点时，在建议小组件中突出显示的匹配项的颜色 */,
+    // "editorSuggestWidget.selectedForeground": "#ff5e9973",/* 建议小部件中所选条目的前景色 */
+    "editorMarkerNavigation.background": "#31364a" /* 编辑器标记导航小部件背景 */,
+    "editorMarkerNavigationError.background": "#EF5350" /* 编辑器标记导航小部件错误颜色 */,
+    "editorMarkerNavigationWarning.background": "#FFCA28" /* 编辑器标记导航小部件警告颜色 */,
+    // "editorStickyScroll.background": "#455358" /* 编辑器的粘滞滚动背景色 */,
+    // "editorStickyScrollHover.background": "#c99e8c48" /* 编辑器悬停背景色上的粘滞滚动 */,
+    "debugExceptionWidget.background": "#292D3E" /* 异常小部件的背景颜色 */,
+    "debugExceptionWidget.border": "#7e57c2" /* 异常小部件边框颜色 */,
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶编辑器合并冲突颜色◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "merge.currentHeaderBackground": "#7e57c25a",
+    "merge.incomingHeaderBackground": "#7e57c25a",
+    "merge.border": null,
+    "merge.currentContentBackground": null,
+    "merge.incomingContentBackground": null,
+    "editorOverviewRuler.currentContentForeground": "#7e57c2" /* 当前概览标尺前景用于内联合并冲突 */,
+    "editorOverviewRuler.incomingContentForeground": "#7e57c2" /* 用于内联合并冲突的传入概览标尺前景 */,
+    "editorOverviewRuler.commonContentForeground": "#7e57c2" /* 用于内联合并冲突的共同祖先概览标尺前景 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶差异编辑器◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "diffEditor.insertedTextBackground": "#99b76d23",
+    "diffEditor.removedTextBackground": "#ef535033",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶按钮◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "button.background": "#f95700da" /* 按钮背景色 */,
+    "button.foreground": "#FFFFFF" /* 按钮前景色 */,
+    "button.hoverBackground": "#f95700" /* 悬停时按钮的背景颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶扩展颜色◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "extensionButton.prominentForeground": "#ffffffcc",
+    "extensionButton.prominentBackground": "#7e57c2cc",
+    "extensionButton.prominentHoverBackground": "#7e57c2",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶编辑器组和选项卡标签◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "tab.border": "#272B3B",
+    "tab.activeBorder": "#262A39",
+    "tab.unfocusedActiveBorder": "#262A39",
+    "tab.activeBackground": "#00000000" /* 活动选项卡的背景色 */,
+    "tab.activeForeground": "#61ffca" /* 活动组中活动选项卡的前景色 */,
+    "tab.hoverBackground": "#61ffca1d" /* 选项卡被悬停时的背景色 */,
+    "tab.hoverForeground": "#ffffff" /* 悬停时选项卡的前景色 */,
+    "tab.inactiveBackground": "#15141b" /* 非活动选项卡的背景色 */,
+    "tab.inactiveForeground": "#6d6d6d" /* 活动组中非活动选项卡的前景色 */,
+    "tab.activeBorderTop": "#61ffca" /* 选项卡上边框颜色 */,
+    "tab.unfocusedActiveBackground": "#00000000" /* 非焦点组中的活动选项卡背景色 */,
+    "tab.unfocusedActiveForeground": null,
+    "tab.unfocusedInactiveForeground": null,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶侧边栏◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "sideBar.border": "#2a2a2a" /* 侧边栏分隔编辑器的边框颜色 */,
+    "sideBar.foreground": "#e3e6ec8e" /* 侧边栏前景色 */,
+    "sideBar.background": "#1e1e20" /* 侧边栏背景色,侧边栏是资源管理器和搜索等视图的容器。 */,
+    "sideBarSectionHeader.background": "#073f8457" /* 侧边栏节标题的背景颜色 */,
+    "sideBarSectionHeader.foreground": "#eef7f2" /* 侧边栏部分标题前景色 */,
+    "sideBarTitle.foreground": "#eeffff",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶集成终端◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiBlack": "#676E95",
+    "terminal.ansiBlue": "#82AAFF",
+    "terminal.ansiCyan": "#89DDFF",
+    "terminal.ansiGreen": "#a9c77d",
+    "terminal.ansiMagenta": "#C792EA",
+    "terminal.ansiRed": "#ff5572",
+    "terminal.ansiYellow": "#FFCB6B",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightBlack": "#676E95",
+    "terminal.ansiBrightBlue": "#82AAFF",
+    "terminal.ansiBrightCyan": "#89DDFF",
+    "terminal.ansiBrightGreen": "#C3E88D",
+    "terminal.ansiBrightMagenta": "#C792EA",
+    "terminal.ansiBrightRed": "#ff5572",
+    "terminal.ansiBrightYellow": "#FFCB6B",
+    "terminal.findMatchBackground": "#7e57c2b3",
+    "terminal.findMatchHighlightBackground": "#7e57c24d",
+    // "terminal.foreground":"#01cd78" /* 终端的前景颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶菜单栏◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    // "menu.background": "#29515e5c",/* 菜单项的背景颜色 */
+    "menu.selectionBackground": "#f95700d2" /* 菜单中所选菜单项的背景色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶下拉控件◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "dropdown.border": "#7e57c2",
+    "dropdown.foreground": "#ffffffcc",
+    "dropdown.background": "#292D3E",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶输入控件◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "input.border": "#717171f5" /* 输入框边框 */,
+    "input.foreground": "#ffffde" /* 输入框前景色 */,
+    "input.background": "#00000037" /* 输入框背景色 */,
+    "input.placeholderForeground": "#ffffff46" /* 输入框中占位符的前景色 */,
+    "inputValidation.errorBackground": "#ef5350f2",
+    "inputValidation.errorBorder": "#EF5350",
+    "inputValidation.infoBackground": "#64b5f6f2",
+    "inputValidation.infoBorder": "#64B5F6",
+    "inputValidation.warningBackground": "#ffca28f2",
+    "inputValidation.warningBorder": "#FFCA28",
+    "inputOption.activeBorder": "#ffffffcc",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶徽章◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "badge.foreground": "#ffffff",
+    "badge.background": "#fd6acccc" /* 徽章背景颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶列表和树◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "list.dropBackground": "#6167d56b" /* 使用鼠标移动项目时，列表或树进行拖放的背景颜色。 */,
+    "list.focusBackground": "#0000002e",
+    "list.focusForeground": "#ffffff",
+    "list.highlightForeground": "#ffffff",
+    "list.hoverBackground": "#0000001a",
+    "list.hoverForeground": "#61ffca" /* 使用鼠标悬停在项目上时的列表/树前景 */,
+    "list.activeSelectionBackground": "#6167d5dd" /* 已选项在列表或树活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有 */,
+    "list.activeSelectionForeground": "#f5fcdb" /* 已选项在列表或树活动时的前景颜色。活动的列表或树具有键盘焦点，非活动的没有。 */,
+    "list.inactiveSelectionBackground": "#d6dac13d" /* 当列表/树处于非活动状态时，所选项目的列表/树背景颜色 */,
+    "list.inactiveSelectionForeground": "#f5fcdb" /* 列表/树处于非活动状态时所选项目的列表/树前景色。 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶活动栏◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "activityBar.background": "#000000" /* 活动栏背景色 */,
+    "activityBar.foreground": "#ffffffb7" /* 活动栏前景色，图标颜色 */,
+    "activityBar.border": "#00000000" /* 活动栏分隔侧边栏的边框颜色*/,
+    "activityBarBadge.foreground": "#ffffff",
+    "activityBarBadge.background": "#ec0909a6" /* 活动栏徽章背景颜色。活动栏显示在最左边或最右边，并允许在侧边栏的视图之间切换。 */,
+    // "activityBar.dropBackground": "#7e57c2e3",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶滚动条控件◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "scrollbar.shadow": "#292D3E00" /* 视图被滚动的滚动条阴影 */,
+    "scrollbarSlider.background": "#c6c6c647" /* 滚动条滑块背景色 */,
+    "scrollbarSlider.hoverBackground": "#fec5496b" /* 滚动条滑块在悬停时的背景色 */,
+    "scrollbarSlider.activeBackground": "#fec549a2" /* 滚动条滑块在被点击时的背景色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶预览视图◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "peekViewResult.background": "#2E3245",
+    "peekViewResult.fileForeground": "#eeffff",
+    "peekViewResult.lineForeground": "#eeffff",
+    "peekViewResult.matchHighlightBackground": "#7e57c25a",
+    "peekViewResult.selectionBackground": "#2E3250",
+    "peekViewResult.selectionForeground": "#eeffff",
+    "peekViewEditor.background": "#232635",
+    "peekViewEditor.matchHighlightBackground": "#7e57c25a",
+    "peekViewTitle.background": "#292D3E",
+    "peekViewTitleLabel.foreground": "#eeffff",
+    "peekViewTitleDescription.foreground": "#697098",
+    "peekView.border": "#7e57c2",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶调试◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "debugToolBar.background": "#292D3E",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶面板◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "panel.background": "#292D3E",
+    "panel.border": "#282B3C",
+    "panelTitle.activeBorder": "#7e57c2",
+    "panelTitle.activeForeground": "#eeffff",
+    "panelTitle.inactiveForeground": "#bfc7d580",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶状态栏◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "statusBar.debuggingBackground": "#202431",
+    "statusBar.debuggingBorder": "#1F2330",
+    "statusBar.noFolderBackground": "#292D3E",
+    "statusBar.noFolderBorder": "#25293A",
+    "statusBar.background": "#000000" /* 标准状态栏背景色 */,
+    "statusBar.foreground": "#dfdfd7" /* 工作区或文件夹打开时状态栏的前景色 */,
+    "statusBar.border": "#000000" /* 分隔状态栏和编辑器的状态栏边框颜色 */,
+    // "statusBar.noFolderBackground": "#01cd78",/* 没有打开文件夹时状态栏的背景色 */
+    // "statusBar.debuggingBackground": "#01cd78",/* 调试程序时状态栏的背景色 */
+    "statusBarItem.activeBackground": "#202431",
+    "statusBarItem.hoverBackground": "#202431",
+    "statusBarItem.prominentBackground": "#202431",
+    "statusBarItem.prominentHoverBackground": "#202431",
+    "statusBar.debuggingForeground": null,
+    "statusBar.noFolderForeground": null,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶标题栏◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "titleBar.border": "#00000000" /* 标题栏边框颜色 */,
+    "titleBar.inactiveBackground": "#30364c",
+    "titleBar.activeBackground": "#1e1e20e7" /* 窗口处于活动状态时的标题栏背景色 */,
+    "titleBar.activeForeground": "#dfdfd7" /* 窗口处于活动状态时的标题栏前景色 */,
+    "titleBar.inactiveForeground": null,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶通知颜色◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "notifications.foreground": "#ffffffcc" /* 通知前景色 */,
+    "notifications.background": "#292D3E" /* 通知背景颜色 */,
+    "notificationLink.foreground": "#80CBC4" /* 通知链接前景色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶小地图◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "minimapSlider.background": "#ffc13d48" /* 迷你地图滑块背景颜色 */,
+    "minimapSlider.hoverBackground": "#fec5496b" /* 悬停时，迷你地图滑块的背景颜色 */,
+    "minimapSlider.activeBackground": "#fec549a2" /* 点击时，迷你地图滑块的背景颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶快速选择◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "pickerGroup.foreground": "#d1aaff",
+    "pickerGroup.border": "#2E3245",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶Git◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "gitDecoration.modifiedResourceForeground": "#e2c08de6" /* 已修改 Git 资源的颜色 */,
+    "gitDecoration.deletedResourceForeground": "#EF535090" /* 已删除 Git 资源的颜色 */,
+    "gitDecoration.untrackedResourceForeground": "#a9c77dff" /* 未跟踪的 Git 资源的颜色 */,
+    "gitDecoration.ignoredResourceForeground": "#69709890" /* 忽略的 Git 资源的颜色 */,
+    "gitDecoration.conflictingResourceForeground": "#FFEB95CC" /* 冲突的 Git 资源的颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶面包屑◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "breadcrumb.activeSelectionForeground": "#eeffff",
+    "breadcrumb.foreground": "#a5a5a5" /* 面包屑颜色 */,
+    "breadcrumb.background": "#1e1e20" /* 面包屑背景颜色 */,
+    "breadcrumb.focusForeground": "#15caf7e1" /* 面包屑聚焦颜色 */,
+    "breadcrumbPicker.background": "#292D3E" /* 面包屑项目选择器的背景颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶进度条◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    // "progress.background": "#7e57c2",
+    "progressBar.background": "#32f784d5" /* 长时间运行的操作所显示的进度条的背景颜色 */
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#697098",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#6ef798"
+      }
+    },
+    {
+      "name": "String Quoted",
+      "scope": "string.quoted",
+      "settings": {
+        "foreground": "#6ef798"
+      }
+    },
+    {
+      "name": "String Unquoted",
+      "scope": "string.unquoted",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Support Constant Math",
+      "scope": "support.constant.math",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric", "constant.character.numeric"],
+      "settings": {
+        "foreground": "#ff8528"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": ["constant.language", "punctuation.definition.constant", "variable.other.constant"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": ["constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Constant Character Escape",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "RegExp String",
+      "scope": ["string.regexp", "string.regexp keyword.other"],
+      "settings": {
+        "foreground": "#81d8cf"
+      }
+    },
+    {
+      "name": "Comma in functions",
+      "scope": "meta.function punctuation.separator.comma",
+      "settings": {
+        "foreground": "#eeffff"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["punctuation.accessor", "keyword"],
+      "settings": {
+        "foreground": "#f9fba0"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": [
+        "storage",
+        "storage.type",
+        "meta.var.expr storage.type",
+        "storage.type.property.js",
+        "storage.type.property.ts",
+        "storage.type.property.tsx",
+        "meta.class meta.method.declaration meta.var.expr storage.type.js"
+      ],
+      "settings": {
+        "foreground": "#f9fba0"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": ["entity.name.class", "meta.class entity.name.type.class"],
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#a9c77d"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Function Parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#fffb1b"
+      }
+    },
+    {
+      "name": "Meta Tag",
+      "scope": ["punctuation.definition.tag", "meta.tag"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "HTML Tag names",
+      "scope": [
+        "entity.name.tag support.class.component",
+        "meta.tag.other.html",
+        "meta.tag.other.js",
+        "meta.tag.other.tsx",
+        "entity.name.tag.tsx",
+        "entity.name.tag.js",
+        "entity.name.tag",
+        "meta.tag.js",
+        "meta.tag.tsx",
+        "meta.tag.html"
+      ],
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Entity Name Tag Custom",
+      "scope": "entity.name.tag.custom",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Library (function & constant)",
+      "scope": ["support.function", "support.constant"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Support Constant Property Value meta",
+      "scope": "support.constant.meta.property-value",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Library class/type",
+      "scope": ["support.type", "support.class"],
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Support Variable DOM",
+      "scope": "support.variable.dom",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "background": "#ff2c83",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "foreground": "#ffffff",
+        "background": "#d3423e"
+      }
+    },
+    {
+      "name": "Keyword Operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Keyword Operator Relational",
+      "scope": "keyword.operator.relational",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
+      "name": "Keyword Operator Assignment",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
+      "name": "Double-Slashed Comment",
+      "scope": "comment.line.double-slash",
+      "settings": {
+        "foreground": "#697098"
+      }
+    },
+    {
+      "name": "Object",
+      "scope": "object",
+      "settings": {
+        "foreground": "#cdebf7"
+      }
+    },
+    {
+      "name": "Null",
+      "scope": "constant.language.null",
+      "settings": {
+        "foreground": "#ff5874"
+      }
+    },
+    {
+      "name": "Meta Brace",
+      "scope": "meta.brace",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Meta Delimiter Period",
+      "scope": "meta.delimiter.period",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
+      "name": "Punctuation Definition String",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#d9f5dd"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "foreground": "#ff5874"
+      }
+    },
+    {
+      "name": "Object Comma",
+      "scope": "object.comma",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Variable Parameter Function",
+      "scope": "variable.parameter.function",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Support Type Property Name & entity name tags",
+      "scope": [
+        "support.type.vendored.property-name",
+        "support.constant.vendored.property-value",
+        "support.type.property-name",
+        "meta.property-list entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#80CBC4"
+      }
+    },
+    {
+      "name": "Entity Name tag reference in stylesheets",
+      "scope": "meta.property-list entity.name.tag.reference",
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "Constant Other Color RGB Value Punctuation Definition Constant",
+      "scope": "constant.other.color.rgb-value punctuation.definition.constant",
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Constant Other Color",
+      "scope": "constant.other.color",
+      "settings": {
+        "foreground": "#FFEB95"
+      }
+    },
+    {
+      "name": "Keyword Other Unit",
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "#FFEB95"
+      }
+    },
+    {
+      "name": "Meta Selector",
+      "scope": "meta.selector",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
+      "name": "Entity Other Attribute Name Id",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "#FAD430"
+      }
+    },
+    {
+      "name": "Meta Property Name",
+      "scope": "meta.property-name",
+      "settings": {
+        "foreground": "#80CBC4"
+      }
+    },
+    {
+      "name": "Doctypes",
+      "scope": ["entity.name.tag.doctype", "meta.tag.sgml.doctype"],
+      "settings": {
+        "foreground": "#c792ea",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Punctuation Definition Parameters",
+      "scope": "punctuation.definition.parameters",
+      "settings": {
+        "foreground": "#d9f5dd"
+      }
+    },
+    {
+      "name": "Keyword Control Operator",
+      "scope": "keyword.control.operator",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Keyword Operator Logical",
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
+      "name": "Variable Instances",
+      "scope": [
+        "variable.instance",
+        "variable.other.instance",
+        "variable.reaedwrite.instance",
+        "variable.other.readwrite.instance"
+      ],
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "Variable Property Other",
+      "scope": ["variable.other.property", "variable.other.object.property"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Entity Name Function",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Keyword Operator Comparison",
+      "scope": "keyword.operator.comparison",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
+      "name": "Support Constant, `new` keyword, Special Method Keyword",
+      "scope": ["support.constant", "keyword.other.special-method", "keyword.other.new"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Support Function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Invalid Broken",
+      "scope": "invalid.broken",
+      "settings": {
+        "foreground": "#020e14",
+        "background": "#F78C6C"
+      }
+    },
+    {
+      "name": "Invalid Unimplemented",
+      "scope": "invalid.unimplemented",
+      "settings": {
+        "background": "#8BD649",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Invalid Illegal",
+      "scope": "invalid.illegal",
+      "settings": {
+        "foreground": "#ffffff",
+        "background": "#ec5f67"
+      }
+    },
+    {
+      "name": "Language Variable",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#ff4766"
+      }
+    },
+    {
+      "name": "Support Variable Property",
+      "scope": "support.variable.property",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Variable Function",
+      "scope": "variable.function",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Variable Interpolation",
+      "scope": "variable.interpolation",
+      "settings": {
+        "foreground": "#ec5f67"
+      }
+    },
+    {
+      "name": "Meta Function Call",
+      "scope": "meta.function-call",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Punctuation Section Embedded",
+      "scope": "punctuation.section.embedded",
+      "settings": {
+        "foreground": "#d3423e"
+      }
+    },
+    {
+      "name": "Punctuation Tweaks",
+      "scope": [
+        "punctuation.terminator.expression",
+        "punctuation.definition.arguments",
+        "punctuation.definition.array",
+        "punctuation.section.array",
+        "meta.array"
+      ],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "More Punctuation Tweaks",
+      "scope": [
+        "punctuation.definition.list.begin",
+        "punctuation.definition.list.end",
+        "punctuation.separator.arguments",
+        "punctuation.definition.list"
+      ],
+      "settings": {
+        "foreground": "#d9f5dd"
+      }
+    },
+    {
+      "name": "Template Strings",
+      "scope": "string.template meta.template.expression",
+      "settings": {
+        "foreground": "#d3423e"
+      }
+    },
+    {
+      "name": "Backtics(``) in Template Strings",
+      "scope": "string.template punctuation.definition.string",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Italics",
+      "scope": "italic",
+      "settings": {
+        "foreground": "#c792ea",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": "bold",
+      "settings": {
+        "foreground": "#ffcb6b",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Quote",
+      "scope": "quote",
+      "settings": {
+        "foreground": "#697098",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Raw Code",
+      "scope": "raw",
+      "settings": {
+        "foreground": "#80CBC4"
+      }
+    },
+    {
+      "name": "CoffeScript Variable Assignment",
+      "scope": "variable.assignment.coffee",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "CoffeScript Parameter Function",
+      "scope": "variable.parameter.function.coffee",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "CoffeeScript Assignments",
+      "scope": "variable.assignment.coffee",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "C# Readwrite Variables",
+      "scope": "variable.other.readwrite.cs",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "C# Classes & Storage types",
+      "scope": ["entity.name.type.class.cs", "storage.type.cs"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "C# Namespaces",
+      "scope": "entity.name.type.namespace.cs",
+      "settings": {
+        "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "Tag names in Stylesheets",
+      "scope": ["entity.name.tag.css", "entity.name.tag.less", "entity.name.tag.custom.css"],
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "Wildcard(*) selector in Stylesheets",
+      "scope": [
+        "entity.name.tag.wildcard.css",
+        "entity.name.tag.wildcard.less",
+        "entity.name.tag.wildcard.scss",
+        "entity.name.tag.wildcard.sass"
+      ],
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "(C|SC|SA|LE)SS property value unit",
+      "scope": [
+        "keyword.other.unit.css",
+        "constant.length.units.css",
+        "keyword.other.unit.less",
+        "constant.length.units.less",
+        "keyword.other.unit.scss",
+        "constant.length.units.scss",
+        "keyword.other.unit.sass",
+        "constant.length.units.sass"
+      ],
+      "settings": {
+        "foreground": "#FFEB95"
+      }
+    },
+    {
+      "name": "Attribute Name for CSS",
+      "scope": "meta.attribute-selector.css entity.other.attribute-name.attribute",
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "punctuations in styled components",
+      "scope": [
+        "source.js source.css meta.property-list",
+        "source.js source.css punctuation.section",
+        "source.js source.css punctuation.terminator.rule",
+        "source.js source.css punctuation.definition.entity.end.bracket",
+        "source.js source.css punctuation.definition.entity.begin.bracket",
+        "source.js source.css punctuation.separator.key-value",
+        "source.js source.css punctuation.definition.attribute-selector",
+        "source.js source.css meta.property-list",
+        "source.js source.css meta.property-list punctuation.separator.comma",
+        "source.ts source.css punctuation.section",
+        "source.ts source.css punctuation.terminator.rule",
+        "source.ts source.css punctuation.definition.entity.end.bracket",
+        "source.ts source.css punctuation.definition.entity.begin.bracket",
+        "source.ts source.css punctuation.separator.key-value",
+        "source.ts source.css punctuation.definition.attribute-selector",
+        "source.ts source.css meta.property-list",
+        "source.ts source.css meta.property-list punctuation.separator.comma"
+      ],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Elixir Classes",
+      "scope": ["source.elixir support.type.elixir", "source.elixir meta.module.elixir entity.name.class.elixir"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Elixir Functions",
+      "scope": "source.elixir entity.name.function",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Elixir Constants",
+      "scope": ["source.elixir constant.other.symbol.elixir", "source.elixir constant.other.keywords.elixir"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Elixir String Punctuations",
+      "scope": "source.elixir punctuation.definition.string",
+      "settings": {
+        "foreground": "#a9c77d"
+      }
+    },
+    {
+      "name": "Elixir",
+      "scope": [
+        "source.elixir variable.other.readwrite.module.elixir",
+        "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
+      ],
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Elixir Binary Punctuations",
+      "scope": "source.elixir .punctuation.binary.elixir",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
+      "name": "Go Function Calls",
+      "scope": "source.go meta.function-call.go",
+      "settings": {
+        "foreground": "#DDDDDD"
+      }
+    },
+    {
+      "name": "GraphQL Variables",
+      "scope": "variable.qraphql",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "ID Attribute Name in HTML",
+      "scope": "entity.other.attribute-name.id.html",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "HTML Punctuation Definition Tag",
+      "scope": "punctuation.definition.tag.html",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "HTML Doctype",
+      "scope": "meta.tag.sgml.doctype.html",
+      "settings": {
+        "foreground": "#c792ea",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JavaScript Classes",
+      "scope": "meta.class entity.name.type.class.js",
+      "settings": {
+        "foreground": "#ffcb8b"
+      }
+    },
+    {
+      "name": "JavaScript Method Declaration e.g. `constructor`",
+      "scope": "meta.method.declaration storage.type.js",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "JavaScript Terminator",
+      "scope": "terminator.js",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "JavaScript Meta Punctuation Definition",
+      "scope": "meta.js punctuation.definition.js",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Entity Names in Code Documentations",
+      "scope": ["entity.name.type.instance.jsdoc", "entity.name.type.instance.phpdoc"],
+      "settings": {
+        "foreground": "#eeffff"
+      }
+    },
+    {
+      "name": "Other Variables in Code Documentations",
+      "scope": ["variable.other.jsdoc", "variable.other.phpdoc"],
+      "settings": {
+        "foreground": "#78ccf0"
+      }
+    },
+    {
+      "name": "JavaScript module imports and exports",
+      "scope": [
+        "variable.other.meta.import.js",
+        "meta.import.js variable.other",
+        "variable.other.meta.export.js",
+        "meta.export.js variable.other"
+      ],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "JavaScript Variable Parameter Function",
+      "scope": "variable.parameter.function.js",
+      "settings": {
+        "foreground": "#7986E7"
+      }
+    },
+    {
+      "name": "JavaScript Variable Other ReadWrite",
+      "scope": "variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Text nested in React tags",
+      "scope": ["meta.jsx.children", "meta.jsx.children.js", "meta.jsx.children.tsx"],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "JavaScript[React] Variable Other Object",
+      "scope": [
+        "variable.other.object.js",
+        "variable.other.object.jsx",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.jsx",
+        "variable.object.property.js",
+        "variable.object.property.jsx"
+      ],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "JavaScript Variables",
+      "scope": ["variable.js", "variable.other.js"],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "JavaScript Entity Name Type",
+      "scope": ["entity.name.type.js", "entity.name.type.module.js"],
+      "settings": {
+        "foreground": "#ffcb8b"
+      }
+    },
+    {
+      "name": "JavaScript Support Classes",
+      "scope": "support.class.js",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "JSON Property Names",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "JSON Support Constants",
+      "scope": "support.constant.json",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "JSON Property values (string)",
+      "scope": "meta.structure.dictionary.value.json string.quoted.double",
+      "settings": {
+        "foreground": "#80CBC4"
+      }
+    },
+    {
+      "name": "Strings in JSON values",
+      "scope": "string.quoted.double.json punctuation.definition.string.json",
+      "settings": {
+        "foreground": "#80CBC4"
+      }
+    },
+    {
+      "name": "Specific JSON Property values like null",
+      "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
+      "settings": {
+        "foreground": "#ff5874"
+      }
+    },
+    {
+      "name": "Ruby Variables",
+      "scope": "variable.other.ruby",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Ruby Hashkeys",
+      "scope": "constant.language.symbol.hashkey.ruby",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "LESS Tag names",
+      "scope": "entity.name.tag.less",
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "Attribute Name for LESS",
+      "scope": "meta.attribute-selector.less entity.other.attribute-name.attribute",
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Markup Headings",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#82b1ff"
+      }
+    },
+    {
+      "name": "Markup Italics",
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#c792ea",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ffcb6b",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Quote + others",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#697098",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup Raw Code + others",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "#80CBC4"
+      }
+    },
+    {
+      "name": "Markup Links",
+      "scope": ["markup.underline.link", "markup.underline.link.image"],
+      "settings": {
+        "foreground": "#ff869a"
+      }
+    },
+    {
+      "name": "Markup Attributes",
+      "scope": ["markup.meta.attribute-list"],
+      "settings": {
+        "foreground": "#a9c77d"
+      }
+    },
+    {
+      "name": "Markup Admonitions",
+      "scope": "markup.admonition",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Lists",
+      "scope": "markup.list.bullet",
+      "settings": {
+        "foreground": "#D9F5DD"
+      }
+    },
+    {
+      "name": "Markup Superscript and Subscript",
+      "scope": ["markup.superscript", "markup.subscript"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Link Title and Description",
+      "scope": ["string.other.link.title.markdown", "string.other.link.description.markdown"],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Markdown Punctuation",
+      "scope": [
+        "punctuation.definition.string.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "meta.link.inline.markdown punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#82b1ff"
+      }
+    },
+    {
+      "name": "Markdown MetaData Punctuation",
+      "scope": ["punctuation.definition.metadata.markdown"],
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "Markdown List Punctuation",
+      "scope": ["beginning.punctuation.definition.list.markdown"],
+      "settings": {
+        "foreground": "#82b1ff"
+      }
+    },
+    {
+      "name": "Asciidoc Function",
+      "scope": "entity.name.function.asciidoc",
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "PHP Variables",
+      "scope": "variable.other.php",
+      "settings": {
+        "foreground": "#bec5d4"
+      }
+    },
+    {
+      "name": "Support Classes in PHP",
+      "scope": "support.class.php",
+      "settings": {
+        "foreground": "#ffcb8b"
+      }
+    },
+    {
+      "name": "Punctuations in PHP function calls",
+      "scope": "meta.function-call.php punctuation",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "PHP Global Variables",
+      "scope": "variable.other.global.php",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Declaration Punctuation in PHP Global Variables",
+      "scope": "variable.other.global.php punctuation.definition.variable",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Language Constants in Python",
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#ff5874"
+      }
+    },
+    {
+      "name": "Python Function Parameter and Arguments",
+      "scope": ["variable.parameter.function.python", "meta.function-call.arguments.python"],
+      "settings": {
+        "foreground": "#7986E7"
+      }
+    },
+    {
+      "name": "Python Function Call",
+      "scope": ["meta.function-call.python", "meta.function-call.generic.python"],
+      "settings": {
+        "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "Punctuations in Python",
+      "scope": "punctuation.python",
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "Decorator Functions in Python",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "Python Language Variable",
+      "scope": "source.python variable.language.special",
+      "settings": {
+        "foreground": "#8EACE3"
+      }
+    },
+    {
+      "name": "SCSS Variable",
+      "scope": ["variable.scss", "variable.sass", "variable.parameter.url.scss", "variable.parameter.url.sass"],
+      "settings": {
+        "foreground": "#DDDDDD"
+      }
+    },
+    {
+      "name": "Variables in SASS At-Rules",
+      "scope": ["source.css.scss meta.at-rule variable", "source.css.sass meta.at-rule variable"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Variables in SASS At-Rules",
+      "scope": ["source.css.scss meta.at-rule variable", "source.css.sass meta.at-rule variable"],
+      "settings": {
+        "foreground": "#bec5d4"
+      }
+    },
+    {
+      "name": "Attribute Name for SASS",
+      "scope": [
+        "meta.attribute-selector.scss entity.other.attribute-name.attribute",
+        "meta.attribute-selector.sass entity.other.attribute-name.attribute"
+      ],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Tag names in SASS",
+      "scope": ["entity.name.tag.scss", "entity.name.tag.sass"],
+      "settings": {
+        "foreground": "#ff5572"
+      }
+    },
+    {
+      "name": "TypeScript[React] Variables and Object Properties",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx",
+        "variable.other.object.ts",
+        "variable.other.object.tsx",
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "variable.other.ts",
+        "variable.other.tsx",
+        "variable.tsx",
+        "variable.ts"
+      ],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "TypeScript[React] Entity Name Types",
+      "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
+      "settings": {
+        "foreground": "#78ccf0"
+      }
+    },
+    {
+      "name": "TypeScript[React] Node Classes",
+      "scope": ["support.class.node.ts", "support.class.node.tsx"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "TypeScript[React] Entity Name Types as Parameters",
+      "scope": ["meta.type.parameters.ts entity.name.type", "meta.type.parameters.tsx entity.name.type"],
+      "settings": {
+        "foreground": "#eeffff"
+      }
+    },
+    {
+      "name": "TypeScript[React] Import/Export Punctuations",
+      "scope": [
+        "meta.import.ts punctuation.definition.block",
+        "meta.import.tsx punctuation.definition.block",
+        "meta.export.ts punctuation.definition.block",
+        "meta.export.tsx punctuation.definition.block"
+      ],
+      "settings": {
+        "foreground": "#bfc7d5"
+      }
+    },
+    {
+      "name": "TypeScript[React] Punctuation Decorators",
+      "scope": ["meta.decorator punctuation.decorator.ts", "meta.decorator punctuation.decorator.tsx"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "TypeScript[React] Punctuation Decorators",
+      "scope": "meta.tag.js meta.jsx.children.tsx",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "YAML Entity Name Tags",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "handlebars variables",
+      "scope": "variable.parameter.handlebars",
+      "settings": {
+        "foreground": "#bec5d4"
+      }
+    },
+    {
+      "name": "handlebars parameters",
+      "scope": "entity.other.attribute-name.handlebars variable.parameter.handlebars",
+      "settings": {
+        "foreground": "#ffcb6b"
+      }
+    },
+    {
+      "name": "handlebars entity attribute names",
+      "scope": "entity.other.attribute-name.handlebars",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "handlebars entity attribute values",
+      "scope": "entity.other.attribute-value.handlebars variable.parameter.handlebars",
+      "settings": {
+        "foreground": "#7986E7"
+      }
+    },
+    {
+      "name": "entity type names",
+      "scope": ["entity.name.type.alias.ts", "entity.name.type.ts", "entity.name.type.interface.ts"],
+      "settings": {
+        "foreground": "#ffc02f"
+      }
+    },
+    {
+      "name": "primitive types",
+      "scope": "support.type.primitive.ts",
+      "settings": {
+        "foreground": "#ff5dab"
+      }
+    },
+    {
+      "name": "normalize font style of certain components",
+      "scope": [
+        "meta.tag.js meta.embedded.expression.js punctuation.section.embedded.begin.js",
+        "meta.tag.js meta.embedded.expression.js punctuation.section.embedded.end.js",
+        "meta.property-list.css meta.property-value.css variable.other.less",
+        "punctuation.section.embedded.begin.js.jsx",
+        "punctuation.section.embedded.end.js.jsx",
+        "meta.property-list.scss variable.scss",
+        "meta.property-list.sass variable.sass",
+        "keyword.operator.logical",
+        "keyword.operator.arithmetic",
+        "keyword.operator.bitwise",
+        "keyword.operator.increment",
+        "keyword.operator.ternary",
+        "keyword.operator.comparison",
+        "keyword.operator.assignment",
+        "keyword.operator.operator",
+        "keyword.operator.or.regexp",
+        "keyword.operator.expression.in",
+        "keyword.operator.type",
+        "punctuation.section.embedded.js",
+        "punctuation.definintion.string",
+        "punctuation"
+      ],
+      "settings": {
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "italicsify for operator mono",
+      "scope": [
+        "keyword.other.unit",
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css",
+        "support.constant.vendored.property-value.css",
+        "meta.import.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.import.js variable.other",
+        "meta.export.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.export.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.export.js variable.other",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "support.type.primitive",
+        "entity.name.tag.yaml",
+        "entity.other.attribute-name",
+        "meta.tag.sgml.doctype.html",
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "entity.name.tag.custom",
+        "source.js.jsx keyword.control.flow.js",
+        "support.type.property.css",
+        "support.function.basic_functions",
+        "constant.other.color.rgb-value.hex.css",
+        "constant.other.rgb-value.css",
+        "variable.assignment.coffee",
+        "support.function.basic_functions",
+        "keyword.operator.expression.typeof",
+        "punctuation.section.embedded",
+        "keyword.operator.type.annotation",
+        "variable.object.property.ts",
+        "variable.object.property.js",
+        "variable.object.property.jsx",
+        "variable.object.property.tsx",
+        "assignment.coffee",
+        "entity.name.type.ts",
+        "support.constant.math",
+        "meta.object-literal.key",
+        "meta.var.expr storage.type",
+        "variable.scss",
+        "variable.sass",
+        "variable.other.less",
+        "variable.parameter.url.scss",
+        "variable.parameter.url.sass",
+        "parameter",
+        "string",
+        "italic",
+        "quote",
+        "keyword",
+        "storage",
+        "language",
+        "constant.language",
+        "variable.language",
+        "type .function",
+        "type.function",
+        "storage.type.class",
+        "type.var",
+        "meta.parameter",
+        "variable.parameter",
+        "meta.parameters",
+        "keyword.control",
+        "modifier",
+        "this",
+        "comment"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
