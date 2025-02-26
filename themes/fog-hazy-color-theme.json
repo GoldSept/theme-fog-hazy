@@ -11,7 +11,7 @@
     "descriptionForeground": null /* 提供附加信息的描述文本的前景色 */,
     "errorForeground": "#EF5350" /* 错误消息整体前景色 */,
     "widget.shadow": "#232635" /* 编辑器内查找/替换等小部件的阴影颜色 */,
-    "selection.background": "#7580B850" /* 作台中文本选择的背景颜色 */,
+    "selection.background": "#7580B850" /* 工作台中文本选择的背景颜色 */,
 
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶欢迎页面◀ ------------ */
@@ -82,7 +82,8 @@
     "editorBracketMatch.background": "#c0c4c377" /* 匹配括号的背景色 */,
     "editorRuler.foreground": "#4E557980",
     "editorCodeLens.foreground": "#FFCA28" /* 编辑器 CodeLens 的前景色 */,
-    "editorIndentGuide.background1": "#4E557980" /* 编辑器缩进指南的颜色（1） */,
+    "editorIndentGuide.background1": "#00000001" /* 编辑器缩进指南的颜色（1） */,
+    "editorIndentGuide.activeBackground1": "#bbbbbb" /* 编辑器缩进指南的活动颜色（1） */,
     // "editorGutter.background": "#01cd78" /* 编辑器导航线的背景色，导航线包括边缘符号和行号 */,
     "editorBracketMatch.border": null,
     "editorWhitespace.foreground": null,
@@ -90,7 +91,7 @@
     /* ------------ ▶编辑器小部件◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
     "editorWidget.border": "#dfdfd7" /* 编辑器小部件的边框颜色 */,
-    "editorWidget.foreground": "#ffeaa7e3" /* 编辑器组件(如查找/替换)前景颜色 */,
+    "editorWidget.foreground": "#e5ddc2" /* 编辑器组件(如查找/替换)前景颜色 */,
     "editorWidget.background": "#2A2C3E" /* 编辑器组件(如查找/替换)背景颜色 */,
     "editorHoverWidget.foreground": "#eef7f2" /* 编辑器悬停的前景颜色 */,
     "editorHoverWidget.background": "#2A2C3E" /* 编辑器悬停提示的背景颜色 */,
