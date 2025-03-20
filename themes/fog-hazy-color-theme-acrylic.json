@@ -5,11 +5,11 @@
     /* ------------ ▶基色◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
     "foreground": "#ffffff" /* 整体前景色;仅当未被组件覆盖时才使用此颜色 */,
-    "focusBorder": "#282B3C" /* 聚焦元素的整体边框颜色;仅当未被组件覆盖时才使用此颜色 */,
-    "contrastBorder": "#282B3C" /* 元素周围的额外边框，用于将元素与其他元素区分开，从而实现更大的对比度 */,
+    "focusBorder": "#282B3C" /*, 聚焦元素的整体边框颜色;仅当未被组件覆盖时才使用此颜色 */,
+    "contrastBorder": "#282B3C" /*, 元素周围的额外边框，用于将元素与其他元素区分开，从而实现更大的对比度 */,
     "contrastActiveBorder": null /* 活动元素周围的额外边框，用于将它们与其他元素区分开，从而实现更大的对比度。 */,
     "descriptionForeground": null /* 提供附加信息的描述文本的前景色 */,
-    "errorForeground": "#EF5350" /* 错误消息整体前景色 */,
+    "errorForeground": "#EF5350" /*, 错误消息整体前景色 */,
     "widget.shadow": "#232635" /* 编辑器内查找/替换等小部件的阴影颜色 */,
     "selection.background": "#7580B850" /* 作台中文本选择的背景颜色 */,
 
@@ -57,7 +57,7 @@
     "editorLineNumber.activeForeground": "#ff770f" /* 编辑器活动行号的颜色 */,
     "editorLineNumber.foreground": "#363636" /* 编辑器行号颜色 */,
     // "editorLineNumber.foreground": "#619ac3a8",
-    // "editorLineNumber.dimmedForeground": "#363636" /* 最后一行的行号颜色 */,
+    // "editorLineNumber.dimmedForeground": "#363636", /* 最后一行的行号颜色 */
     "editorGroup.border": "#00000000" /* 将多个编辑器组彼此分隔开的颜色 */,
     "editorGroup.dropBackground": "#1717c97e" /* 拖动编辑器时的背景颜色；此文本通知用户可以按住 Shift 放入编辑器中 */,
     "editorGroup.dropIntoPromptBackground": "#1717c998" /* 拖动文件时编辑器上显示的文本背景色；此文本通知用户可以按住 Shift 放入编辑器中 */,
@@ -83,8 +83,8 @@
     "editorRuler.foreground": "#4E557980",
     "editorCodeLens.foreground": "#FFCA28" /* 编辑器 CodeLens 的前景色 */,
     "editorIndentGuide.background1": "#00000001" /* 编辑器缩进指南的颜色（1） */,
-    "editorIndentGuide.activeBackground1": "#bbbbbb", /* 编辑器缩进指南的活动颜色（1） */,
-    // "editorGutter.background": "#01cd78" /* 编辑器导航线的背景色，导航线包括边缘符号和行号 */,
+    "editorIndentGuide.activeBackground1": "#bbbbbb" /* 编辑器缩进指南的活动颜色（1） */,
+    // "editorGutter.background": "#01cd78", /* 编辑器导航线的背景色，导航线包括边缘符号和行号 */
     "editorBracketMatch.border": null,
     "editorWhitespace.foreground": null,
     ////////////////////////////////////////////////////////////////////////////////
@@ -169,7 +169,7 @@
     "sideBar.background": "#1e1e20" /* 侧边栏背景色,侧边栏是资源管理器和搜索等视图的容器。 */,
     "sideBarSectionHeader.background": "#073f8457" /* 侧边栏节标题的背景颜色 */,
     "sideBarSectionHeader.foreground": "#eef7f2" /* 侧边栏部分标题前景色 */,
-    "sideBarTitle.foreground": "#eeffff",
+    "sideBarTitle.foreground": "#eeffff" /* 侧边栏标题前景色 */,
 
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶集成终端◀ ------------ */
@@ -197,7 +197,8 @@
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶菜单栏◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
-    // "menu.background": "#29515e5c",/* 菜单项的背景颜色 */
+    // "menu.background": "#29515e5c" /* 菜单项的背景颜色 */,
+    // "menu.background": "#00000030" /* 菜单项的背景颜色 */,
     "menu.selectionBackground": "#f95700d2" /* 菜单中所选菜单项的背景色 */,
 
     ////////////////////////////////////////////////////////////////////////////////
@@ -293,7 +294,7 @@
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶状态栏◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
-    "statusBar.debuggingBackground": "#202431",
+    "statusBar.debuggingBackground": "#333d799e",
     "statusBar.debuggingBorder": "#1F2330",
     "statusBar.noFolderBackground": "#292D3E",
     "statusBar.noFolderBorder": "#25293A",
