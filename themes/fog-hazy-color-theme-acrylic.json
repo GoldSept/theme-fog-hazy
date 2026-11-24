@@ -14,6 +14,12 @@
     "selection.background": "#7580B850" /* 作台中文本选择的背景颜色 */,
 
     ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶窗口（仅支持 Linux 和 MacOS）◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    // "window.activeBorder": "#1e1e20" /* 活动（聚焦）窗口的边框颜色 */,
+    // "window.inactiveBorder": "#7e57c2" /* 非活动（非聚焦）窗口的边框颜色 */,
+
+    ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶欢迎页面◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
     "walkThrough.embeddedEditorBackground": "#232635" /* 交互式游乐场中嵌入编辑器的背景颜色 */,
@@ -30,6 +36,12 @@
     /* ------------ ▶个人资料◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
     // "profileBadge.foreground": "#ff0000",
+
+    ////////////////////////////////////////////////////////////////////////////////
+    /* ------------ ▶Modern UI◀ ------------ */
+    ////////////////////////////////////////////////////////////////////////////////
+    "editor.border": "#00000000" /* 编辑器边框颜色 */,
+    "modernEditorTab.activeHoverBackground": "#61ffca60" /* 现代编辑器选项卡活动悬停背景色 */,
 
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶编辑器◀ ------------ */
@@ -56,11 +68,13 @@
     "editor.findRangeHighlightBackground": null,
     "editorLineNumber.activeForeground": "#ff770f" /* 编辑器活动行号的颜色 */,
     "editorLineNumber.foreground": "#363636" /* 编辑器行号颜色 */,
-    // "editorLineNumber.foreground": "#619ac3a8",
     // "editorLineNumber.dimmedForeground": "#363636", /* 最后一行的行号颜色 */
     "editorGroup.border": "#00000000" /* 将多个编辑器组彼此分隔开的颜色 */,
-    "editorGroup.dropBackground": "#1717c97e" /* 拖动编辑器时的背景颜色；此文本通知用户可以按住 Shift 放入编辑器中 */,
-    "editorGroup.dropIntoPromptBackground": "#1717c998" /* 拖动文件时编辑器上显示的文本背景色；此文本通知用户可以按住 Shift 放入编辑器中 */,
+    // "editorGroup.dropBackground": "#1717c97e" /* 拖动编辑器时的背景颜色；此文本通知用户可以按住 Shift 放入编辑器中 */,
+    // "editorGroup.dropIntoPromptBackground": "#1717c998" /* 拖动文件时编辑器上显示的文本背景色；此文本通知用户可以按住 Shift 放入编辑器中 */,
+    "editorGroup.dropIntoPromptForeground": "#000000" /* 拖动文件时编辑器上显示的文本前景色；此文本通知用户可以按住 Shift 放入编辑器中 */,
+    "editorGroup.dropBackground": "#61ffca50" /* 拖动编辑器时的背景颜色；此文本通知用户可以按住 Shift 放入编辑器中 */,
+    "editorGroup.dropIntoPromptBackground": "#61ffca90" /* 拖动文件时编辑器上显示的文本背景色；此文本通知用户可以按住 Shift 放入编辑器中 */,
     "editorGroupHeader.noTabsBackground": "#32374C",
     "editorGroupHeader.tabsBackground": "#1e1e20ee" /* 选项卡容器的背景颜色 */,
     "editorGroupHeader.tabsBorder": "#1e1e20ee" /* 编辑器选项卡下方的边框颜色控制何时启用选项卡 */,
@@ -92,9 +106,9 @@
     ////////////////////////////////////////////////////////////////////////////////
     "editorWidget.border": "#ffffff31" /* 编辑器小部件的边框颜色 */,
     "editorWidget.foreground": "#ffeaa7e3" /* 编辑器组件(如查找/替换)前景颜色 */,
-    "editorWidget.background": "#00000021" /* 编辑器组件(如查找/替换)背景颜色 */,
+    "editorWidget.background": "#00000021" /* 编辑器组件(如查找/替换)背景颜色 v1.4.1后加入了 Modern UI Glass 但部分组件（如：悬浮搜索栏并未加入亚克力效果） */,
     "editorHoverWidget.foreground": "#eef7f2" /* 编辑器悬停的前景颜色 */,
-    "editorHoverWidget.background": "#00000008" /* 编辑器悬停提示的背景颜色 */,
+    "editorHoverWidget.background": "#00000000" /* 编辑器悬停提示的背景颜色 */,
     "editorHoverWidget.border": "#3a3a3b" /* 光标悬停时编辑器的边框颜色 */,
     "editorSuggestWidget.foreground": "#fffff5db",
     "editorSuggestWidget.highlightForeground": "#ffffff" /* 建议小组件中匹配内容的高亮颜色 */,
@@ -146,7 +160,7 @@
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶编辑器组和选项卡标签◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
-    "tab.border": "#272B3B",
+    "tab.border": "#cccccc10",
     "tab.activeBorder": "#262A39",
     "tab.unfocusedActiveBorder": "#262A39",
     "tab.activeBackground": "#00000000" /* 活动选项卡的背景色 */,
@@ -174,6 +188,7 @@
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶集成终端◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
+    "terminal.background": "#000000",
     "terminal.ansiWhite": "#ffffff",
     "terminal.ansiBlack": "#676E95",
     "terminal.ansiBlue": "#82AAFF",
@@ -197,8 +212,9 @@
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶菜单栏◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
-    // "menu.background": "#29515e5c" /* 菜单项的背景颜色 */,
-    // "menu.background": "#00000030" /* 菜单项的背景颜色 */,
+    // "menu.background": "#29515e5c" /* 菜单项的背景颜色 - 墨绿 */,
+    "menu.background": "#00000030" /* 菜单项的背景颜色 - 透黑 */,
+    "menu.border": "#26434d60",
     "menu.selectionBackground": "#f95700d2" /* 菜单中所选菜单项的背景色 */,
 
     ////////////////////////////////////////////////////////////////////////////////
@@ -246,7 +262,7 @@
     ////////////////////////////////////////////////////////////////////////////////
     /* ------------ ▶活动栏◀ ------------ */
     ////////////////////////////////////////////////////////////////////////////////
-    "activityBar.background": "#000000" /* 活动栏背景色 */,
+    "activityBar.background": "#1e1e20ee" /* 活动栏背景色 */,
     "activityBar.foreground": "#ffffffb7" /* 活动栏前景色，图标颜色 */,
     "activityBar.border": "#00000000" /* 活动栏分隔侧边栏的边框颜色*/,
     "activityBarBadge.foreground": "#ffffff",
@@ -362,6 +378,42 @@
     ////////////////////////////////////////////////////////////////////////////////
     // "progress.background": "#7e57c2",
     "progressBar.background": "#32f784d5" /* 长时间运行的操作所显示的进度条的背景颜色 */
+  },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "type.declaration": {
+      "bold": true
+    },
+    "class.declaration": {
+      "bold": true
+    },
+    "function.declaration": {
+      "bold": true
+    },
+    "method.declaration": {
+      "bold": true
+    },
+    "macro": "#BEB7FF", // 宏的专用颜色
+    "variable.globalScope": "#C8C8C8", // 全局变量的专用颜色
+    "parameter": {
+      "italic": true
+    },
+    "typeParameter": {
+      "italic": true
+    },
+    "property": {
+      "italic": true
+    },
+    "typeParameter.readonly": "#9CDCFE", // 将非类型模板参数颜色设置为变量
+    "*.deduced": "#569CD6", // 一致地为推断的 'auto' 设置颜色
+    // 由于 clangd 的一个 bug（可能是一个特性），不要根据 readonly 修饰符而不同地着色
+    "variable.readonly.globalScope": "#C8C8C8",
+    "variable.readonly.fileScope": "#C8C8C8",
+    "property.readonly.classScope": "#9CDCFE",
+    "variable.readonly.classScope": "#C8C8C8",
+    "parameter.readonly.functionScope": "#9CDCFE",
+    "variable.readonly.functionScope": "#9CDCFE",
+    "variable.readonly.localScope": "#9CDCFE"
   },
   "tokenColors": [
     {
